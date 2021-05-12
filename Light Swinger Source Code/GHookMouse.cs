@@ -111,11 +111,11 @@ public class GHookMouse : MonoBehaviour
         }
         else if (joint.distance < reelLength)
         {
-            joint.distance = reelLength;
+            joint.distance = reelLength; //Keeps it so the grapple only reels to a certain length
         }
         else if (isGrapple == true && grappleDelay <= 0 && angle <= angleBreakRight || angle >= angleBreakLeft)
         {
-            GrappleBreak();
+            GrappleBreak(); //Break Function if the player exceeds the max angle they can swing
         }
         else if (inputVector.x == 0)
         {
@@ -146,8 +146,8 @@ public class GHookMouse : MonoBehaviour
                 targetPos.z = 0;
             }
 
+            //Checks to see if the player shot the hook at a hook
             hit = Physics2D.Raycast(guntip.position, targetPos - guntip.position, maxdistance, hookMask);
-
             if (hit.collider != null && hit.collider.gameObject.GetComponent<Rigidbody2D>() != null && hit.collider.CompareTag("Hook"))
             {
                 anim.SetBool("isGrapple", true);
@@ -168,6 +168,7 @@ public class GHookMouse : MonoBehaviour
         {
             line.SetPosition(0, guntip.position);
 
+            //checks to make sure the angle the player is at doesn't break the grapple
             anglecheck = guntip.position - targetPos;
             if (hit)
             {
@@ -176,7 +177,7 @@ public class GHookMouse : MonoBehaviour
         }
         if (isGrapple == true && grappleDelay <= 0 && angle <= angleBreakRight || angle >= angleBreakLeft)
         {
-            GrappleBreak();
+            GrappleBreak(); //Grapple breaks if certain conditions are met
         }
         else if (inputVector.x == 0)
         {
@@ -188,7 +189,7 @@ public class GHookMouse : MonoBehaviour
         #endregion
 
         #region grapple enemies
-        //grappling hook pull
+        //grappling hook pull for enemy objects
         if (inputVectorEnemy.x > 0 && isGrappleEnemy == false && isGrappleMiniHook == false)
         {
             if (deviceCurrent.GetDevice() == "Gamepad")
@@ -302,6 +303,7 @@ public class GHookMouse : MonoBehaviour
 
     void GrappleBreak()
     {
+        //Breaks the grabble and turns off objects
         anim.SetBool("isGrapple", false);
         isGrapple = false;
         grappleDelay = maxGrappleDelay;
@@ -314,6 +316,7 @@ public class GHookMouse : MonoBehaviour
 
     public void GrappleBreakMini()
     {
+        //Function to pull off miniBoss hooks
         if (miniBossHook != null)
         {
             anim.SetBool("isGrappleEnemy", false);
