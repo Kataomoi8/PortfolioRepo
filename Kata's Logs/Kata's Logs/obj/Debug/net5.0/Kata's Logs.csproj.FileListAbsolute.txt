@@ -1,0 +1,18 @@
+D:\Code Projects\Kata's Logs\Kata's Logs\obj\Debug\net5.0\Kata's Logs.csproj.AssemblyReference.cache
+D:\Code Projects\Kata's Logs\Kata's Logs\obj\Debug\net5.0\Kata's Logs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code Projects\Kata's Logs\Kata's Logs\obj\Debug\net5.0\Kata's Logs.AssemblyInfoInputs.cache
+D:\Code Projects\Kata's Logs\Kata's Logs\obj\Debug\net5.0\Kata's Logs.AssemblyInfo.cs
+D:\Code Projects\Kata's Logs\Kata's Logs\obj\Debug\net5.0\Kata's Logs.csproj.CoreCompileInputs.cache
+D:\Code Projects\Kata's Logs\Kata's Logs\bin\Debug\net5.0\Kata's Logs.exe
+D:\Code Projects\Kata's Logs\Kata's Logs\bin\Debug\net5.0\Kata's Logs.deps.json
+D:\Code Projects\Kata's Logs\Kata's Logs\bin\Debug\net5.0\Kata's Logs.runtimeconfig.json
+D:\Code Projects\Kata's Logs\Kata's Logs\bin\Debug\net5.0\Kata's Logs.runtimeconfig.dev.json
+D:\Code Projects\Kata's Logs\Kata's Logs\bin\Debug\net5.0\Kata's Logs.dll
+D:\Code Projects\Kata's Logs\Kata's Logs\bin\Debug\net5.0\ref\Kata's Logs.dll
+D:\Code Projects\Kata's Logs\Kata's Logs\bin\Debug\net5.0\Kata's Logs.pdb
+D:\Code Projects\Kata's Logs\Kata's Logs\obj\Debug\net5.0\Kata's Logs.dll
+D:\Code Projects\Kata's Logs\Kata's Logs\obj\Debug\net5.0\ref\Kata's Logs.dll
+D:\Code Projects\Kata's Logs\Kata's Logs\obj\Debug\net5.0\Kata's Logs.pdb
+D:\Code Projects\Kata's Logs\Kata's Logs\obj\Debug\net5.0\Kata's Logs.genruntimeconfig.cache
+D:\Code Projects\Kata's Logs\Kata's Logs\bin\Debug\net5.0\TextFiles\BugDescriptions.txt
+D:\Code Projects\Kata's Logs\Kata's Logs\bin\Debug\net5.0\TextFiles\Usernames.txt
